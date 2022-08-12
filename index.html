@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1>Color Scheme Generator</h1>
+  <div class="top-section">
+    <input type="color" id="color-picker" value="#DA0F5C" />
+    <select name="scheme-options" id="mode">
+      <option value="monochrome">Monochrome</option>
+      <option value="monochrome-dark">Monochrome-Dark</option>
+      <option value="monochrome-light">Monochrome-Light </option>
+      <option value="analogic">Analogic</option>
+      <option value="complement">Complement</option>
+      <option value="analogic-complement">Analogic-Complement</option>
+      <option value="triad">Triad</option>
+      <option value="quad">Quad</option>
+    </select>
+    <button type="button" id="submit-btn">Get color scheme</button>
+  </div>
+
+  <div id="color-scheme" class="colors">
+    <div class="intro-text">
+      <h2> Create beautiful color palettes instantly! </h2>
+      <p> Just choose a starting color & color harmony rule to begin</p>
+      <img src="Color-Palettes-768x432.png" alt="Colour Palette Examples" class="intro-img" />
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
